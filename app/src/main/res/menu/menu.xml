@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NoteActivity">
+
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        app:showAsAction="always"
+        android:title="save"/>
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete_forever_black_24dp"
+        app:showAsAction="always"
+        android:title="cancel">
+    </item>
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        app:showAsAction="always"
+        android:title="back">
+    </item>
+</menu>
